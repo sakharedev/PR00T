@@ -1,0 +1,65 @@
+# general Python project ignores
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# Conda environments
+*.conda
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# pytest
+.cache/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Logs and outputs
+*.log
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyTorch model files and training outputs
+*.pt
+*.pth
+*.ckpt
+runs/
+checkpoints/
+logs/
+
+# Credentials or secrets
+*.secret
+*.key
+*.pem
+*.db
+.env
+.env.*
+
+# pyproject/pip/build tools
+__pypackages__/
