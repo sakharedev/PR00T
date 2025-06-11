@@ -13,4 +13,18 @@
 # limitations under the License.
 
 
-__version__ = "0.1.0"
+from pr00t.core import pr00t_main
+
+
+def test_pr00t_main(capsys):
+    """
+    Test the pr00t_main function to ensure it runs without errors and produces expected output.
+    """
+    pr00t_main()
+
+    # Capture the output
+    captured = capsys.readouterr()
+
+    # Check if the welcome message is in the output
+    assert "Welcome to PR00T!" in captured.out
+    assert "PR00T is running..." in captured.out

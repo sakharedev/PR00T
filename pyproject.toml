@@ -35,5 +35,8 @@ dependencies = [
     "networkx==3.2.1"
 ]
 
+[project.scripts]
+pr00t = "pr00t.core:pr00t_main"
+
 [tool.setuptools]
 packages = ["pr00t"]
