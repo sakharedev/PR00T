@@ -1,4 +1,4 @@
-# Copyright 2025 Paras (pr00t - Paras Robotics 00 Technology)
+# Copyright 2025 Paras (PR00T - Paras Robotics 00 Technology)
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

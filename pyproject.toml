@@ -9,16 +9,16 @@ description = "Paras Robotics 00 Technology"
 authors = [
     {name="Paras", email="parassakhare04@gmail.com"}
 ]
-license = {text = "MIT"}
+license = {text = "Apache 2.0"}
 readme = "Readme.md"
 requires-python = ">=3.10"
 dependencies = [
-    "torch==2.1.0",
-    "torchvision==0.16.0",
-    "torchaudio==2.1.0",
-    "transformers==4.39.3",
+    "torch==2.7.1",
+    "torchvision",
+    "torchaudio==2.7.1",
+    "transformers",
     "diffusers==0.27.2",
-    "accelerate==0.29.2",
+    "accelerate",
     "opencv-python==4.9.0.80",
     "Pillow==10.3.0",
     "scikit-image==0.22.0",
@@ -32,7 +32,8 @@ dependencies = [
     "ipykernel==6.29.4",
     "notebook==7.1.3",
     "easyocr==1.7.1",
-    "networkx==3.2.1"
+    "networkx==3.2.1",
+    "bitsandbytes==0.46.0"
 ]
 
 [project.scripts]
